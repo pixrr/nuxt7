@@ -1,5 +1,5 @@
 {
-  "name": "nuxt7",
+  "name": "@pixrr/nuxt7",
   "version": "4.0.1",
   "license": "MIT",
   "main": "lib/module.js",
@@ -38,5 +38,19 @@
     "nuxt-edge": "^2.7.2-25968968.dbb9f039",
     "standard-version": "^6.0.1",
     "surge": "^0.20.5"
-  }
+  },
+  "description": "<p align=\"center\">     <img src=\"https://github.com/nuxt-community/nuxt7/raw/master/.assets/nuxt7.png\" alt=\"Nuxt7\"> </p>",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixrr/nuxt7.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/pixrr/nuxt7/issues"
+  },
+  "homepage": "https://github.com/pixrr/nuxt7#readme"
 }
