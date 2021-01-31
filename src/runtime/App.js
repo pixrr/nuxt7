@@ -35,7 +35,6 @@ export default {
   },
   created () {
     // Add this.$nuxt in child instances
-    // Vue.prototype.$nuxt = this
     this.$root.$options.$nuxt = this
     // Add to window so we can listen when ready
     if (typeof window !== 'undefined') {
@@ -43,6 +42,8 @@ export default {
     }
     // Add $nuxt.error()
     this.error = this.nuxt.error
+    // Add $nuxt.context
+    this.context = this.$options.context
   },
   methods: {
     setLayout (layout) {
