@@ -1,7 +1,16 @@
 {
   "name": "@pixrr/nuxt7",
   "version": "4.2.0",
+  "homepage": "https://github.com/pixrr/nuxt7#readme",
+  "bugs": {
+    "url": "https://github.com/pixrr/nuxt7/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixrr/nuxt7.git"
+  },
   "license": "MIT",
+  "author": "",
   "main": "dist/module.js",
   "files": [
     "dist"
@@ -37,14 +46,5 @@
     "siroc": "^0.6.2",
     "standard-version": "latest",
     "surge": "latest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pixrr/nuxt7.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/pixrr/nuxt7/issues"
-  },
-  "homepage": "https://github.com/pixrr/nuxt7#readme"
+  }
 }
